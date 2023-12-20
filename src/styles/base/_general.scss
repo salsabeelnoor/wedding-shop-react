@@ -1,8 +1,8 @@
-// @use 'abstract' as *;
+@use '../abstract/index' as *;
 body{
-    background-color: yellow;
+    background-color: white;
 }
 .App{
-    background-color: red;
+    // background-color: red;
 
 }
