@@ -1,11 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
 import '../src/styles/style.scss';
+import { RouterProvider } from 'react-router-dom';
+import { routes } from './Routes/Router';
+
 
 function App() {
   return (
-    <div className="App">
-      <h2 className="text-success-emphasis">Hello React</h2>
+    <div className="">
+      <RouterProvider router={routes}></RouterProvider>
     </div>
   );
 }
